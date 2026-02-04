@@ -1,0 +1,47 @@
+:root {
+    --primary-bg-color: #F4F4F6;
+    --secundary-bg-color: #E7E7E7;
+    --primary-text-color: #333333;
+    --primary-buttom-color: #D2D2D4;
+    --secundary-buttom-color: #FF634A;
+}
+
+body{
+    background-color: var(--primary-bg-color);
+}
+
+header{
+    background-color: var(--secundary-bg-color);
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: var(--primary-text-color);
+}
+
+header nav ul li a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+
+button{
+    background-color: var(--secundary-buttom-color);
+    color: var(--primary-text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+table{
+    width: 100%;
+    background-color: var(--secundary-bg-color);
+    border-collapse: collapse;
+    margin-top: 20px;
+}

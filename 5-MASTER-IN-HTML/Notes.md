@@ -1,5 +1,6 @@
 ## Table of Contents
  - [HTML as structural language](#html-as-structural-language-not-a-visual-one)
+   - [HTML Elements reference]()
    - [Content categories](#content-categories)
      - [1 - Metadata content](#1-metadata-content)
      - [2 - Flow content](#2-flow-content)
@@ -11,9 +12,17 @@
      - [8 - Palpable content](#8---palpable-content)
      - [9 - Script supporting elements](#9---script-supporting-elements)
    - [Content model](#content-model)
+     - [Permitted content](#permitted-content)
+     - [Permitted parents](#permitted-parents)
 
 
 # HTML as structural language not a visual one
+
+## HTML elements reference
+
+In this section we're going to find all the HTML elements with their description and functionality.
+
+[Link to HTML reference page](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements)
 
 ## Content categories
 
@@ -499,5 +508,27 @@ Good code
 [⬆ Back to table of contents](#table-of-contents)
 
 ## Content Model
+
+The content model is whay kind of element can contain another element but talking about catogories, is abstract basing on categories, example:
+
+ - This element just can contain **flow content**
+
+### Permitted content
+
+Now we also have the **permited content** which is the application of the content model, here we start to talking about HTML elements.
+
+  - **X HTML element can contain** : p, section, article, ul etc...
+
+### Permitted parents
+
+The permitted parents is similar to the Permitted content is what HTML tags the element can have as parents.
+
+This is like the grammar of HTML, because this language has rules, you have to know them although the browser forgive you the mistakes, the validator and accessibility technology don't do it.
+
+
+
+
+
+
 
 [⬆ Back to table of contents](#table-of-contents)
