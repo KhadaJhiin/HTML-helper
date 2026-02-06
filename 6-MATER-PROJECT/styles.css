@@ -12,16 +12,10 @@ body{
 
 header{
     background-color: var(--secundary-bg-color);
-    padding: 20px;
+    padding: 20px 0px;
     text-align: center;
     font-size: 24px;
     color: var(--primary-text-color);
-}
-
-header nav ul li a{
-    color: var(--primary-text-color);
-    text-decoration: none;
-    cursor: pointer;
 }
 
 header nav ul{
@@ -29,15 +23,45 @@ header nav ul{
     padding: 0;
 }
 
+header nav ul li{
+    background-color: var(--primary-bg-color);
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+header nav ul li a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+}
+
+header nav ul li a:hover{
+    background-color: var(--secundary-buttom-color);
+    color: var(--primary-bg-color);
+    border-radius: 10px;
+}
+
+aside h2{
+    font-size: 30px;
+}
 
 button{
     background-color: var(--secundary-buttom-color);
-    color: var(--primary-text-color);
+    color: var(--secundary-bg-color);
     border: none;
-    padding: 10px 20px;
+    padding: 9px 19px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    transition: transform 0.2s ease-in-out;
 }
 
 table{
@@ -46,3 +70,11 @@ table{
     border-collapse: collapse;
     margin-top: 20px;
 }
+
+/* Header setion style */
+
+
+/* Main section style */
+
+
+
