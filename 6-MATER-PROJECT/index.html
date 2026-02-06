@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Index</title>
 </head>
 <body>
     <header>
-        <img src="./assets/logo.svg" alt="Logo JM-Dev developer enterprice">
+        <img src="./assets/logo.svg" alt="JM-Dev company logo">
         <nav>
             <ul>
                 <li><a href="#">Instructions</a></li>
@@ -17,28 +17,29 @@
                 <li><a href="#">Theory</a></li>
             </ul>
         </nav>
-        <section>
+        <aside>
+            <h2>User preferences</h2>
             <button type="button">
                 <i class="fa-regular fa-moon"></i>
-                light mode
+                Light mode
             </button>
             <button type="button">
                 <i class="fa-solid fa-language"></i>
                 Spanish
             </button>
-        </section>
+        </aside>
     </header>
 
     <main>
         <section>
             <h1>HTML Helper</h1>
-            <p>All you need to know about each HTML element.</p>
-            <p>Content categorie, permitted content, permitted parents and so on..</p>
+            <p>All you need to know about each <em>HTML element.</em></p>
+            <p>Content category, permitted content, permitted parents and so on..</p>
         </section>
         <section>
             <h2>Search the element and find all its information</h2>
             <form action="#">
-                <label for="searcher">Write the element to be searched</label>
+                <label for="searcher">HTML element: </label>
                 <input 
                 required 
                 id="searcher" 
@@ -52,7 +53,8 @@
             </form>
         </section>
 
-        <section>            
+        <article>
+            <h2>Search results</h2>
             <table>
                 <caption>&lt;Element&gt; table</caption>
                 <thead>
@@ -62,7 +64,7 @@
                         <th>Child permitted</th>
                         <th>Parents permitted</th>
                         <th>Example</th>
-                        <th>Inline - block</th>
+                        <th>Element type</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -74,13 +76,13 @@
                             Second Data Cell
                         </td>
                         <td>
-                            Theerd Data Cell
+                            Third Data Cell
                         </td>
                         <td>
                             Fourth Data Cell
                         </td>
                         <td>
-                            Fiveth Data Cell
+                            Fifth Data Cell
                         </td>
                         <td>
                             Sixth Data Cell
@@ -89,15 +91,15 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <th colspan="5">Info element 2026</th>
+                        <th colspan="6">Info element 2026</th>
                     </tr>
                 </tfoot>
             </table>
-        </section>
+        </article>
     </main>
 
     <footer>
-        <p>All rights reserve</p>
+        <p>© 2026 JM-Dev. All rights reserved.</p>
     </footer>
 </body>
 </html>

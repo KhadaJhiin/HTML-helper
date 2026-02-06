@@ -1,6 +1,6 @@
 ## Table of Contents
  - [HTML as structural language](#html-as-structural-language-not-a-visual-one)
-   - [HTML Elements reference]()
+   - [HTML Elements reference](#html-elements-reference)
    - [Content categories](#content-categories)
      - [1 - Metadata content](#1-metadata-content)
      - [2 - Flow content](#2-flow-content)
